@@ -6,4 +6,4 @@ This piece is a pathway for viewers to interact with a glitch bot through their 
 Our HANG Glitch Gallery was shown at the Contemporary Arts Museum Houston as part of their Shapeshifters exhibition. It is no longer on display but you can still check out the Tumblr page where the art was uploaded. https://hang-glitch-gallery.tumblr.com
 
 
-https://github.com/MikeBeradino/HANG_Glitch_Gallery/blob/master/install_shot.png
+![](https://github.com/MikeBeradino/HANG_Glitch_Gallery/blob/master/install_shot.png)
