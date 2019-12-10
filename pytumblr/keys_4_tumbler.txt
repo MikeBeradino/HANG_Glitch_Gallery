@@ -1,0 +1,24 @@
+# Authenticate via OAuth
+client = pytumblr.TumblrRestClient(
+  '79CX2zUJwFdFul45BU8uPrgX8vj2xnYmUxqBY6gv9wkbx9pauv',
+  'o5QQKAFtAoWunbpWFLWP8hlXpYhT9K18wsx6WYRecWn6NNQ5Bv',
+  'wcYXI3uIqxgVtBKPe1xK6d5kclwHZdfUwrVckhA6ekV3AmkOQv',
+  'puMjnjPBGFsiVN8o4KYwM7g09TCF6OiaMfRxs6I5IfQCKsah0j'
+)
+
+# Make the request
+client.info()
+
+// Authenticate via OAuth
+var tumblr = require('tumblr.js');
+var client = tumblr.createClient({
+  consumer_key: '79CX2zUJwFdFul45BU8uPrgX8vj2xnYmUxqBY6gv9wkbx9pauv',
+  consumer_secret: 'o5QQKAFtAoWunbpWFLWP8hlXpYhT9K18wsx6WYRecWn6NNQ5Bv',
+  token: 'wcYXI3uIqxgVtBKPe1xK6d5kclwHZdfUwrVckhA6ekV3AmkOQv',
+  token_secret: 'puMjnjPBGFsiVN8o4KYwM7g09TCF6OiaMfRxs6I5IfQCKsah0j'
+});
+
+// Make the request
+client.userInfo(function (err, data) {
+    // ...
+});
